@@ -3,11 +3,14 @@ import React from 'react'
 import RotatingBox from './RotatingBox'
 import { RigidBody } from '@react-three/rapier'
 import Boundary from './Boundary'
+import Character from './Character'
 
 const Experience = () => {
   return (
     <>
       {/* <RotatingBox /> */}
+
+      <Character />
 
       <Boundary />
 
